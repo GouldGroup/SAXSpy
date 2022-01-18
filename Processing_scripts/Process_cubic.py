@@ -2,7 +2,7 @@ import numpy as np
 import random
 import sys
 import os
-sys.path.append('/'.join(os.getcwd().split('/')[:-1]))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from scipy.interpolate import CubicSpline
 from tqdm import tqdm
 from scipy.special import wofz

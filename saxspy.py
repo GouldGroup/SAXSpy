@@ -177,7 +177,7 @@ class HexagonalModel():
         store_it = []
         #pbar = tqdm(total=10**8+1)
         count = 0
-        for lat_param in tqdm(np.linspace(params[0,0], params[0,1], 2000)):
+        for lat_param in tqdm(np.linspace(params[0,0], params[0,1], 10000)):
             tail = lat_param/2
             lat_param_recip = 2*np.pi/lat_param
             _, k_list = self.hexagonalLattice(lat_param_recip, max_q)
