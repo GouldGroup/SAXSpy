@@ -1,6 +1,6 @@
 # SAXSpy
-This repository contains the synthetic data generation, processing and model training code for predicting lipid phase behaviour, details are in the paper titled <em>" 
-Machine Learning Platform for Predicting Lipid Phase Behaviour from Small Angle X-ray Scattering Patterns by Pre-training on Synthetic Data".</em>
+This repository contains the synthetic data generation, processing and model training code for predicting lipid phase behaviour, details are in the paper titled <em>
+"Machine Learning Platform for Determining Experimental Lipid Phase Behaviour from Small Angle X-ray Scattering Patterns by Pre-training on Synthetic Data".</em>
 
 ## Getting Started
 
